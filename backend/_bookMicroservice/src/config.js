@@ -1,7 +1,7 @@
 const config = {
     PORT: 3001,
-    MONGODB_URI: 'mongodb://localhost:27017/unangpahina_books',
-    RABBITMQ_URL: 'amqp://admin:admin@localhost:5672/',
+    MONGODB_URI: 'mongodb+srv://hedtjyuzon:QaigtWEHFQ8ZIwrH@unanngpahina.rfgehb6.mongodb.net/unangpahina_books',
+    RABBITMQ_URL: 'amqp://junedelmar:junedelmar@20.2.196.15:5672/',
     
     // RabbitMQ Configuration
     EXCHANGE_NAME: 'book.exchange',

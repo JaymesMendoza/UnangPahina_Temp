@@ -1,7 +1,7 @@
 const config = {
     PORT: 3002,
-    MONGODB_URI: 'mongodb://localhost:27017/unangpahina_users',
-    RABBITMQ_URL: 'amqp://admin:admin@localhost:5672/',
+    MONGODB_URI: 'mongodb+srv://hedtjyuzon:QaigtWEHFQ8ZIwrH@unanngpahina.rfgehb6.mongodb.net/unangpahina_users',
+    RABBITMQ_URL: 'amqp://junedelmar:junedelmar@20.2.196.15:5672/',
     
     // JWT Configuration
     JWT_SECRET: 'your-super-secret-jwt-key-for-unangpahina',
