@@ -1,12 +1,14 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const amqp = require('amqplib');
+const cors = require('cors');
 const config = require('./config');
 const userRoutes = require('./routes/userRoutes');
 
 const app = express();
 
 // Middleware
+app.use(cors());
 app.use(express.json());
 
 // Connect to MongoDB
